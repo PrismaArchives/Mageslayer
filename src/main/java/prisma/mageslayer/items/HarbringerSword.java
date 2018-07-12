@@ -38,7 +38,7 @@ public class HarbringerSword extends ItemSword {
 					for(int slot = 1; slot < 5; slot++) {
 						if (victim.inventory.armorItemInSlot(slot) != null) {
 							if (victim.inventory.armorItemInSlot(slot).isItemEnchanted()) {
-								victim.inventory.armorItemInSlot(slot).removeSubCompound("ench");
+								victim.inventory.armorItemInSlot(slot).damageItem(10, victim);
 							}
 						}
 						

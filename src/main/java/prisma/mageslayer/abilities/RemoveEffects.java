@@ -5,7 +5,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.potion.Potion;
 
 public class RemoveEffects{
-
+/*
 	public RemoveEffects() {
 				
 	}
@@ -19,5 +19,5 @@ public class RemoveEffects{
 	
 	
 	
-	
+	*/
 }
